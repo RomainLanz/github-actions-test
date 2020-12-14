@@ -20,6 +20,7 @@
   "dependencies": {
     "@adonisjs/http-server": "^4.0.9",
     "express": "^4.17.1",
-    "fastify": "^3.9.1"
+    "fastify": "^3.9.1",
+    "npm-audit-html": "^1.5.0"
   }
 }
