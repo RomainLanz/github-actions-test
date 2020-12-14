@@ -32,7 +32,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Commit the file
         run: |
-          git config user.name "Github Actions"
+          git config user.name "Github Action"
           git config user.email github-action@users.noreply.github.com
           git add npm-audit.html
           git commit -m "chore: update packages' audit"
