@@ -33,4 +33,5 @@ jobs:
       - name: Commit the file
         run: |
           git add npm-audit.html
+          git commit -m "chore: update packages' audit"
           git push
